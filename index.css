@@ -1,18 +1,25 @@
 body
 {
-    height: 1200px;
-    width: 1200px;
+   
+    background-color: lemonchiffon;
+    margin: auto;
 }
-#SimplCoton
+#Simpl
 {
     
     color:darkseagreen;
-    font-size:130px;
+    font-size:100px;
     text-align: center;
   margin-left: 400px;
-  
-    
 }
+#coton
+    {
+        color: lightcoral;
+        font-size:130px;
+
+    }
+    
+
 .orange
 {
     color: papayawhip;
@@ -22,7 +29,7 @@ body
 
 .Acceuil
 {
-    color: lightpink;
+    color: peachpuff;
     font-size: 1;
     margin-left: 600px;
     font-style: italic;
@@ -60,18 +67,63 @@ ul li a
 {
     display: block;
     float: left;
+    margin-top: 50px;
     width: 100px;
-    color: darkseagreen;
+    color: lightyellow;
     font-style: italic;
     font-size: 1;
     
     
 }
-#photo
+.grid
 {
-    padding: 40px;
-    margin-left: 210px;
-    
+   width: 100%;
+    height: 100%;
+     
 }
 
+.col
+{
+   display: flex ;
+  flex-direction :column;
+    flex: 1; 
+   
+    
+} .row
+{
+display: flex ;
+  flex-direction :row;
+    flex: 1;
+   
+}
+ img
+{
+    width: 80%;
+    height: 350px;
+    
+    
+}
+  
+ #photo1 , #photo2
+{
+    margin: auto;
+    margin-left: 60px;
+}
+
+#photo2 img
+{
+height: 400px; 
+   
+}
+
+
+footer
+{
+    
+    background-color:rgb(104, 104, 104) ;
+    width: 100%;
+    margin-top: 100px;
+   
+    
+}
 
