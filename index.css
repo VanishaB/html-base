@@ -3,6 +3,7 @@ body
    
     background-color: lemonchiffon;
     margin: auto;
+    
 }
 #Simpl
 {
@@ -11,18 +12,15 @@ body
     font-size:100px;
     text-align: center;
   margin-left: 400px;
+    font-family: roboto;
 }
-#coton
-    {
-        color: lightcoral;
-        font-size:130px;
 
-    }
     
 
 .orange
 {
     color: papayawhip;
+    font-size: 1;
     
 }
 
@@ -33,6 +31,7 @@ body
     font-size: 1;
     margin-left: 600px;
     font-style: italic;
+    margin-top: -40px
 }
 .liste
 {
@@ -41,40 +40,9 @@ body
    
     
 }
-ul
-{
-    padding: 0;
-    margin: 0;
-    margin-left: -150px;
-    display: inline;
-    font-family:serif;
-    font-size: 35px;
-    font-style: italic;;
-    list-style-type: none;
-    display: block;
-    font-weight:bolder 
-    
-    
-    
-}
-li
-{
-    margin-left: 60px;
-    float: left;
-    
-}
-ul li a
-{
-    display: block;
-    float: left;
-    margin-top: 50px;
-    width: 100px;
-    color: lightyellow;
-    font-style: italic;
-    font-size: 1;
-    
-    
-}
+
+
+
 .grid
 {
    width: 100%;
@@ -110,10 +78,16 @@ display: flex ;
     margin-left: 60px;
 }
 
+#photo1 img
+{
+    width: 350px;
+    height: 250px;
+    margin-left: 300px;
+}
 #photo2 img
 {
-height: 400px; 
-   
+height: 200px; 
+ width: 300px;  
 }
 
 
@@ -121,9 +95,21 @@ footer
 {
     
     background-color:rgb(104, 104, 104) ;
+    height: 175px;
     width: 100%;
     margin-top: 100px;
+    
+    
    
     
 }
 
+.copy
+{
+    text-align: right;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(56, 39, 0)
+    
+}
