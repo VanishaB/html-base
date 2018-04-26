@@ -1,15 +1,16 @@
 * {
   margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body html  
+body, html  
 {
     background-color: lemonchiffon;
     margin: auto;
     position: relative;
     height: 100%;
     width: 100%;
-    
+    text-align: center;
     
 }
 
@@ -24,8 +25,6 @@ body html
 }
 
     
-
-
 
 .Acceuil
 {
@@ -67,19 +66,17 @@ width: 100%;
  #photo1 , #photo2
 {
     margin: auto;
-    margin-left: 60px;
 }
 
 #photo1 img
 {
-    width: 350px;
-    height: 250px;
-    margin-left: 300px;
+    width: 150px;
+    height: 150px;
 }
 #photo2 img
 {
-height: 200px; 
- width: 300px;  
+height: 150px; 
+ width: 150px;  
 }
 
 
@@ -87,10 +84,10 @@ footer
 {
     
     background-color:rgb(104, 104, 104) ;
-    height: 100;
-    width: 100%;
-    margin-top:100px; 
+    height: 120px;
+    width: 100%; 
     bottom: 0 ;
+    position:fixed;
     
     
     
@@ -106,4 +103,12 @@ footer
     font-weight: 100;
     color: rgb(56, 39, 0)
     
+}
+
+p {
+    margin: auto;
+}
+
+a{
+text-decoration: none;
 }
