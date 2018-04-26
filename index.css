@@ -1,10 +1,18 @@
-body
+* {
+  margin: 0;
+    padding: 0;
+}
+body html  
 {
-   
     background-color: lemonchiffon;
     margin: auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
     
 }
+
 #Simpl
 {
     
@@ -17,12 +25,6 @@ body
 
     
 
-.orange
-{
-    color: papayawhip;
-    font-size: 1;
-    
-}
 
 
 .Acceuil
@@ -31,22 +33,18 @@ body
     font-size: 1;
     margin-left: 600px;
     font-style: italic;
-    margin-top: -40px
-}
-.liste
-{
-    color: pink;
-    margin-left: 500px
    
-    
 }
 
 
 
 .grid
 {
-   width: 100%;
+    
     height: 100%;
+    margin: 0;
+   position: absolute;
+    width: 100%;
      
 }
 
@@ -55,23 +53,17 @@ body
    display: flex ;
   flex-direction :column;
     flex: 1; 
-   
+  width: 100%;
     
 } .row
 {
 display: flex ;
   flex-direction :row;
     flex: 1;
+width: 100%;
    
 }
- img
-{
-    width: 80%;
-    height: 350px;
-    
-    
-}
-  
+
  #photo1 , #photo2
 {
     margin: auto;
@@ -95,9 +87,11 @@ footer
 {
     
     background-color:rgb(104, 104, 104) ;
-    height: 175px;
+    height: 100;
     width: 100%;
-    margin-top: 100px;
+    margin-top:100px; 
+    bottom: 0 ;
+    
     
     
    
@@ -109,7 +103,7 @@ footer
     text-align: right;
     font-family: fantasy;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 100;
     color: rgb(56, 39, 0)
     
 }
