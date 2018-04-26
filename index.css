@@ -14,14 +14,19 @@ body, html
     
 }
 
+header
+
+{
+    width: 100%;
+}
 #Simpl
 {
     
     color:darkseagreen;
     font-size:100px;
     text-align: center;
-  margin-left: 400px;
     font-family: roboto;
+     width: 100%;
 }
 
     
@@ -30,7 +35,6 @@ body, html
 {
     color: peachpuff;
     font-size: 1;
-    margin-left: 600px;
     font-style: italic;
    
 }
